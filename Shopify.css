@@ -14,12 +14,12 @@ nav{
     padding: 10px 0;
     display: flex;
     background: #0d1213;
-    cursor: pointer;
     position: fixed;
 }
 
 .logo{
     margin: 0 15px;
+    cursor:pointer;
 }
 
 .nav-ul{
@@ -28,7 +28,9 @@ nav{
     list-style: none;
     margin-left: 380px;
 }
-
+.nav-ul li{
+    cursor:pointer
+}
 a{
     color: white;
     text-decoration: none;
@@ -51,6 +53,7 @@ a{
     margin-top: 5px;
     display: flex;
     gap: 20px;
+    cursor:pointer;
 }
 .slash{
     text-align: center;
@@ -58,6 +61,7 @@ a{
     width: 20px ;
     border: 1px solid white;
     border-radius: 4px;
+    cursor:pointer;
 }
 .icon{
     padding: 4px 6px;
@@ -66,6 +70,7 @@ a{
     border: 1px solid white;
     text-align: center;
     background: #122a35;
+    cursor:pointer;
 }
 .right-nav{
     display: flex;
@@ -82,6 +87,7 @@ a{
 
 .right-nav .help{
     font-size: 18px;
+    cursor:pointer;
 
 }
 
